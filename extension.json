@@ -1,0 +1,24 @@
+{
+  "identifier": "com.tommasonegri.rubylsp",
+  "name": "Ruby LSP",
+  "organization": "Tommaso Negri",
+  "description": "Lorem ipsum, dolor sit amet.",
+  "version": "1.0",
+  "categories": ["languages"],
+
+  "main": "main.js",
+
+  "entitlements": {
+    "process": true,
+    "filesystem": "readonly"
+  },
+
+  "config": [
+    {
+      "key": "tommasonegri.rubylsp.languageServerPath",
+      "title": "Language Server Path",
+      "type": "path",
+      "placeholder": "/usr/local/bin/ruby-lsp"
+    }
+  ]
+}
